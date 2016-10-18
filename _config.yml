@@ -1,0 +1,11 @@
+
+baseurl: "/wganewsite" # the subpath of your site, e.g. /blog
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
