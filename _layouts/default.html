@@ -1,19 +1,20 @@
 <html>
 <head>
 	<title>Wanja Guerra - Advocacia Boutique</title>
+	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/style.css">
 </head>
 <body>
 	<header>
 		<h1>Wanja Guerra</h1>
-		<nav>
-			<ul>
-				<li> <a href="{{site.baseurl}}/index.html"> Home</a></li>
-				<li> <a href="{{site.baseurl}}/blog.html"> Blog</a></li>
-			</ul>	
-		</nav>	
+		{% include nav.html %}
 	</header>
 
 {{content}}
+
+<footer>
+{% include nav.html %}
+© Copyright Wanja Guerra
+</footer>
 
 </body>
 </html>
