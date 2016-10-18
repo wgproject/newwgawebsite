@@ -1,5 +1,6 @@
 
-baseurl: "/wganewsite" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://wamjaguerra.adv.br"
 
 # Build settings
 markdown: kramdown
