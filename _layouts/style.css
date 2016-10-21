@@ -1,0 +1,91 @@
+{% include css/bootstrap.min.css %}
+{% include css/main.css %}
+
+.navbar-default {
+    background-color: #000;
+    border-color: transparent;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 13px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #F0AD4E;
+    background-color: transparent;
+}
+
+.navbar-nav>.active>a {
+    background-color: #000 !important;
+    color: #F0AD4E !important;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+header {
+  background: url('/img/boutique-banner.jpeg') no-repeat top left;
+  background-size: cover;
+  padding-bottom: 0;
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+    border: solid 2px #F0AD4E;
+    color: #FFF;
+    background: #F0AD4E;
+}
+
+.portfolio-item h3 {
+	color: #000;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+section h2 {
+ color: #000 !important;
+ margin: 30px;
+}
+
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+section.success {
+    background: #000;
+    background: url('/img/apoio-banner.jpeg') no-repeat bottom left;
+  background-size: cover;
+  color: #000 !important;
+}
+
+
+section.success .btn-outline {
+    margin-top: 15px;
+    border: solid 2px #000;
+    color: #000;
+}
+
+.btn-success {
+    color: #ffffff;
+    background-color: #F0AD4E;
+    border-color: #F0AD4E;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
+    color: #ffffff;
+    background-color: #F0AD4E;
+    border-color: #F0AD4E;
+}
+footer .footer-above {
+    padding-top: 50px;
+    background-color: #000;
+}

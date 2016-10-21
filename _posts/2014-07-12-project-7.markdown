@@ -1,0 +1,14 @@
+---
+layout: default
+title: Advocacia Boutique
+modal-id: 7
+date: 2014-07-12
+img: boutique.jpg
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Inspirada no novo formato europeu de escritórios jurídicos a advocacia boutique é caracterizada por um serviço personalizado, no qual o advogado fica responsável por um número reduzido de processos. Isto possibilita um acompanhamento pessoal e atuação concreta em todas as fases e atos processuais. Significa dizer que o mesmo advogado acompanha o processo do início ao fim atendendo ao cliente diretamente. Este formato demanda uma estrutura reduzida e elimina custos. E o melhor é que toda esta economia é repassada ao cliente. 
+
+
+---
