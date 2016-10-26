@@ -123,7 +123,7 @@ header .intro-text .skills {
     }
 }
 
-@media(min-width:768px) {
+@media(min-width:480px) {
     .navbar-fixed-top {
         padding: 10px 0;
         /* Custom -webkit-transition: padding .3s;
@@ -133,19 +133,16 @@ header .intro-text .skills {
 
     .navbar-fixed-top .navbar-brand {
         font-size: 1.5em;
-        
-        /* Custom -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;*/
     }
 
-    /*Custom .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
-    }
 
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }*/
+}
+
+@media(max-width:768px) {
+    .navbar-brand img {
+        width:80%;
+        height:auto;
+    }
 }
 
 .navbar {
