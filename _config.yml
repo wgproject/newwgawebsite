@@ -1,10 +1,9 @@
 # Site settings
-title: Wanja Guerra
-email: your-email@domain.com
+title: Wanja Guerra - Advocacia Boutique
+email: contato@wanjaguerra.adv.br
 url: http://wanjaguerra.adv.br
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+description: "Na advocacia boutique todo cliente é VIP. Quer saber por quê? Entre em contato e marque uma hora: Tel. (21) 3145-7121 | Cel.(21) 96724-9248 | contato@wanjaguerra.adv.br"
+meta_author: Wanja Guerra
 baseurl: ""
 
 # Google webmaster tools
