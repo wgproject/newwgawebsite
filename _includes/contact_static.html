@@ -12,7 +12,7 @@
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
 							<label>Nome</label>
-							<input type="text" name="nome" class="form-control" placeholder="Nome" id="nome" required data-validation-required-message="Favor fornecer seu nome.">
+							<input type="text" name="name" class="form-control" placeholder="Nome" id="nome" required data-validation-required-message="Favor fornecer seu nome e sobrenome.">
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
@@ -23,9 +23,17 @@
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group controls">
+							<label>Telefone</label>
+							<input type="text" name="phone" class="form-control" placeholder="Telefone" id="phone" required data-validation-required-message="Favor fornecer seu telefone.">
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
 					<div>
 						<input type="hidden"  name="_subject" value="Novo contato website">
 						<input type="text" name="_gotcha" style="display:none" />
+						<input type="hidden" name="_next" value="{{site.baseurl}}/obrigado/" />
 					</div>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">

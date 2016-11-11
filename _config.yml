@@ -5,9 +5,10 @@ url: http://wanjaguerra.adv.br
 description: "Na advocacia boutique todo cliente é VIP. Quer saber por quê? Entre em contato e marque uma hora: Tel. (21) 3145-7121 | Cel.(21) 96724-9248 | contato@wanjaguerra.adv.br"
 meta_author: Wanja Guerra
 baseurl: ""
+host: localhost
 
 # Google webmaster tools
-google_verify:
+google_verify: yxQ7oWNquujWNTBgFmWOgC0vvTXda9h2rICQsBYHibk
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
