@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Direito Imobiliário
+title: Imobiliário
 modal-id: 5
 date: 2014-07-14
 img: imobiliario.png

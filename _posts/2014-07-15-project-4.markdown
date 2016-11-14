@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Direito do Consumidor
+title: Consumidor
 modal-id: 4
 date: 2014-07-15
 img: consumer.png
