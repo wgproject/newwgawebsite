@@ -1,3 +1,109 @@
 ---
 layout: default
 ---
+<!-- Header -->
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="intro-text">
+					<span class="name">Advocacia Boutique</span>
+					<span class="skills">Na advocacia boutique todo cliente é VIP.</span> <br/>
+					<a href="#portfolioModal-7" class="btn btn-lg btn-outline" data-toggle="modal">QUER SABER POR QUÊ?</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>Áreas de atuação</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 portfolio-item">
+				<img src="img/portfolio/civil.png" class="img-responsive" alt="Civil Geral">
+				<h3>Direito Civil Geral</h3>
+			</div>
+			<div class="col-sm-4 portfolio-item">
+				<img src="img/portfolio/family.png" class="img-responsive" alt="Famílias & Sucessõesl">
+				<h3>Famílias & Sucessões</h3>
+			</div>
+			<div class="col-sm-4 portfolio-item">
+				<img src="img/portfolio/citizenship.png" class="img-responsive" alt="Cidadania Portuguesal">
+				<h3>Cidadania Portuguesa</h3>
+			</div>
+			<div class="col-sm-4 portfolio-item">
+				<img src="img/portfolio/consumer.png" class="img-responsive" alt="Consumidor">
+				<h3>Consumidor</h3>
+			</div>
+			<div class="col-sm-4 portfolio-item">
+				<img src="img/portfolio/imobiliario.png" class="img-responsive" alt="Imobiliário">
+				<h3>Imobiliário</h3>
+			</div>
+			<div class="col-sm-4 portfolio-item">
+				<img src="img/portfolio/tributario.png" class="img-responsive" alt="Tributário">
+				<h3>Tributário</h3>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Contact Section -->
+<section id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>Conte-me sua história</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<form  action="//formspree.io/contato@wanjaguerra.adv.br" method="POST" name="sentMessage" id="contactForm" novalidate>
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group controls">
+							<label>Nome</label>
+							<input type="text" name="name" class="form-control" placeholder="Nome" id="nome" required data-validation-required-message="Favor fornecer seu nome e sobrenome.">
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group controls">
+							<label>Email</label>
+							<input type="email" name="_replyto" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Favor fornecer seu email.">
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group controls">
+							<label>Telefone</label>
+							<input type="text" name="phone" class="form-control" placeholder="Telefone" id="phone" required data-validation-required-message="Favor fornecer seu telefone.">
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<div>
+						<input type="hidden"  name="_subject" value="Novo contato website">
+						<input type="text" name="_gotcha" style="display:none" />
+						<input type="hidden" name="_next" value="{{site.baseurl}}/obrigado/" />
+					</div>
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group controls">
+							<label>Mensagem</label>
+							<textarea rows="5" name="message" class="form-control" placeholder="Mensagem" id="message" required data-validation-required-message="Favor preencher com sua mensagem."></textarea>
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<br>
+					<div id="success"></div>
+					<div class="row">
+						<div class="form-group col-xs-12">
+							<button type="submit" class="btn btn-success btn-lg">enviar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
